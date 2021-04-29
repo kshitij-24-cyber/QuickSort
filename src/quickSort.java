@@ -1,4 +1,5 @@
 public class quickSort {
+    // declaring the fields
 
     public void quickSort(int arr[], int end, int start) {
         if (start < end) {
@@ -9,6 +10,7 @@ public class quickSort {
 
         }
     }
+     // pivot methode to sort the data
 
     public int mypivot(int[] arr, int p, int q) {
         int pivot = q;
